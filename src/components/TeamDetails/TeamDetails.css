@@ -1,0 +1,44 @@
+.header-container img{
+    display: block;
+    width: 200px;
+    height: 400px;
+    margin: auto;
+    padding-top: 200px;
+}
+.header-container h1{
+    text-align: center;
+    color: antiquewhite;
+}
+.team-title{
+    background-color: rgb(60, 60, 228);
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.team-title h2, p{
+    color:antiquewhite;
+   text-align: start;
+}
+.team-img img{
+    width: 100%;
+}
+.description p{
+    color: dimgray;
+    padding-top: 50px;
+}
+.social-icon{
+    text-align: center;
+}
+.social-icon a{
+    margin: 10px;
+    color: red;
+}
+.back-home{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blue;
+    color: white; 
+}
+.back-home:hover{
+    color:rgb(192, 124, 243);
+}
