@@ -12,18 +12,20 @@ import Notfound from './components/Notfound/Notfound';
 function App() {
   return (
     <Router>
-      <Route exact path = "/">
-        <Home></Home>
-      </Route>
-      <Route path = "/home">
-        <Home></Home>
-      </Route>
-      <Route path ="/team/details/:id">
-        <TeamDetails></TeamDetails>
-      </Route>
-      <Route path ="*">
-        <Notfound></Notfound>
-      </Route>
+      <Switch>
+        <Route exact path = "/">
+          <Home></Home>
+        </Route>
+        <Route path = "/home">
+          <Home></Home>
+        </Route>
+        <Route path ="/team/details/:id">
+          <TeamDetails></TeamDetails>
+        </Route>
+        <Route path ="*">
+          <Notfound></Notfound>
+        </Route>
+      </Switch>
     </Router>
   );
 }
